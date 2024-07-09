@@ -68,8 +68,12 @@ header{
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
-    border-color: black;
-    border-style: dashed;
+    padding-left: 10px;
+    padding-right: 10px;
+   /* border-color: black;
+    border-style: dashed;*/
+    border-radius: 2px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .all-web{
     width: 90%;
@@ -105,4 +109,28 @@ header{
 
 .vdo{
     text-align: center;
+}
+
+
+.target-text{
+    text-align: center;
+}
+.target-image-container{
+    width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 140px;
+  border-style: dashed;
+  border-color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+}
+
+.target-img-1{
+    
+    border-radius: 3px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: rgb(255, 76, 30 , .05);
 }
